@@ -1,0 +1,20 @@
+{
+  "name": "prefix-classname",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "The useful utility for making scoped classname.",
+  "author": "imcuttle",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "prefix-classname"
+  ],
+  "license": "MIT",
+  "repository": "imcuttle/prefix-classname",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^23.1.0"
+  },
+  "dependencies": {}
+}
