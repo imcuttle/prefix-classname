@@ -1,6 +1,8 @@
 // Forked form classname
 
 function makeClassname(prefix) {
+  prefix = prefix || ''
+
   function classname () {
     var result = {},
         objects = {},
@@ -12,9 +14,18 @@ function makeClassname(prefix) {
       });
     }
 
-    classname.each([].slice.call(arguments), function (x) {
+    var args = [].slice.call(arguments)
+    if (!args.length) {
+      args = ['']
+    }
+
+    classname.each(args, function (x) {
       switch (classname.getType(x)) {
         case "string":
+          if (x === '') {
+            result[x] = true;
+            break
+          }
         case "number":
           add(x);
           break;

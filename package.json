@@ -5,7 +5,8 @@
   "description": "The useful utility for making scoped classname.",
   "author": "imcuttle",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "version": "npm test"
   },
   "keywords": [
     "prefix-classname"
