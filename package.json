@@ -1,6 +1,6 @@
 {
   "name": "prefix-classname",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "description": "The useful utility for making scoped classname.",
   "author": "imcuttle",
