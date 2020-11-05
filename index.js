@@ -125,6 +125,4 @@ function makeClassname(prefix) {
 }
 
 
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = makeClassname;
-}
+module.exports = makeClassname;
